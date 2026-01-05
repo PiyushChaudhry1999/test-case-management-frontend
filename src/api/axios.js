@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://test-case-management-backend.onrender.com/api", // production backend
 });
 
 api.interceptors.request.use((config) => {
